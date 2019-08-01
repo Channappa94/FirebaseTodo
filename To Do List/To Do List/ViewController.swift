@@ -50,7 +50,7 @@ class ViewController: UITableViewController{
                 
                 // print(namedata?["names"] as? String)
             }
-            tableView.reloadData()
+            self.tableView.reloadData()
             
         }
         

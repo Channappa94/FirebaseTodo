@@ -46,12 +46,15 @@ class ViewController: UITableViewController{
                 let snapshotContent = nameValue as? DataSnapshot
                 let namedata = snapshotContent?.value as? NSDictionary
                 sendingValue = [namedata?["names"] as! String]
-                print(sendingValue)
+                
                 
                 // print(namedata?["names"] as? String)
             }
+            tableView.reloadData()
             
         }
+        
+        
         
         
     }

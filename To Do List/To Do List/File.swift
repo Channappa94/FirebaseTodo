@@ -23,6 +23,7 @@ class File:UIViewController  {
 
         ref = Database.database().reference().child("Student")
         ref.childByAutoId().child("names").setValue(todo)
+        navigationController?.popViewController(animated: true)
         
     }
 }

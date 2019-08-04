@@ -67,12 +67,12 @@
 			children = (
 				49F528E022F0EDA800559BF7 /* AppDelegate.swift */,
 				49F528E222F0EDA800559BF7 /* ViewController.swift */,
+				49F528F622F2AFD900559BF7 /* File.swift */,
 				49F528E422F0EDA800559BF7 /* Main.storyboard */,
 				49F528E722F0EDA900559BF7 /* Assets.xcassets */,
 				49F528E922F0EDA900559BF7 /* LaunchScreen.storyboard */,
 				49F528EC22F0EDA900559BF7 /* Info.plist */,
 				49F528F422F10BFB00559BF7 /* GoogleService-Info.plist */,
-				49F528F622F2AFD900559BF7 /* File.swift */,
 			);
 			path = "To Do List";
 			sourceTree = "<group>";
